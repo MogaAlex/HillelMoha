@@ -5,4 +5,5 @@ b = num//1000%10
 c = num//100%10
 d = num//10%10
 e = num%10
-print(str(e)+str(d)+str(c)+str(b)+str(a))
+sum = a+b*10+c*100+d*1000+e*10000
+print(sum)
